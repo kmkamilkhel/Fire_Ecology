@@ -13,8 +13,8 @@ library(extrafont)
 
 setwd("D:\\New Volume S\\PHD\\PHD-2024-26\\writeups\\Shoaib_SheraniPlusMargalla")
 
-Nbr_burned <- rast("Analysis/BurnSeverity/fire_analysis_results/Yajiang-nbr_stack_24.tif")
-Bai2_burned <- rast("Analysis/BurnSeverity/fire_analysis_results/Yajian-bais2_stack_24.tif")
+Nbr_burned <- rast("Yajiang-nbr_stack_24.tif")
+Bai2_burned <- rast("Yajian-bais2_stack_24.tif")
 
 # Function to calculate burned area in hectares and percentage
 calculate_burned_area <- function(raster_stack) {

@@ -125,7 +125,7 @@ Map.addLayer(indices.select('BAIS2'), {min: 0, max: 1, palette: ['blue', 'yellow
 Export.image.toDrive({
   image: indices,
   description: exportDescription,
-  scale: 20,
+  scale: 10,
   region: geometry,
   crs: 'EPSG:4326',
   folder: exportFolder,

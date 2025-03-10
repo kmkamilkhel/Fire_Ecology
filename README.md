@@ -55,7 +55,6 @@ This repository contains all scripts, processed datasets, and supporting visuali
 | File | Description |
 |------|-------------|
 | `NBR_Burned_Areas.tif` | Burned areas from NBR classification |
-| `FireNonFirepoints_fixed.shp` | Sampled fire/non-fire points for training |
 | `final_rf_model.rds` | Trained RF model |
 | `MonthlyBurntareas.png` | Monthly burned area (NBR) |
 | `burn_severity_roc_curve.png` | ROC plots for each severity class |

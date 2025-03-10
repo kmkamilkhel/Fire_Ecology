@@ -14,9 +14,6 @@ library(terra)
 library(tidyterra)
 library(tidyverse)
 library(ggplot2)
-
-setwd("D:/New Volume S/PHD/PHD-2024-26/writeups/Shoaib_SheraniPlusMargalla")
-
 # ----------------------------------------------------------
 # Load Raster Stack and Subset Indices
 # ----------------------------------------------------------
@@ -85,5 +82,5 @@ result_nbr <- data.frame(
 )
 print(result_nbr[result_nbr$CountAboveThreshold > 0, ])
 
-writeRaster(binary_stack_nbr, "Analysis/BurnSeverity/fire_analysis_results/Yajiang-nbr_stack_24.tif", overwrite = TRUE)
+writeRaster(binary_stack_nbr, "Yajiang-nbr_stack_24.tif", overwrite = TRUE)
 

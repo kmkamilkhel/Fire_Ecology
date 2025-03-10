@@ -1,10 +1,3 @@
-# Clear environment
-rm(list = ls(all=TRUE))
-cat("\014")
-graphics.off()
-options(scipen = 999)
-gc()
-
 # Load necessary libraries
 library(ggplot2)
 library(tidyr)
